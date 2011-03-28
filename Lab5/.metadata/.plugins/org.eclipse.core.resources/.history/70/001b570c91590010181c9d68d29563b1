@@ -17,10 +17,8 @@ public class PrimeFactor {
 						prime(j, list);
 						prime(j, list);
 					}
-					else{
 					iPrime = false;
 					prime(j, list);
-					}
 				}
 			}
 			if (iPrime){
