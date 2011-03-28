@@ -1,7 +1,5 @@
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-
 import org.junit.Test;
 
 
@@ -16,12 +14,5 @@ public class PrimeFactorTest {
 	@Test
 	public void testPrimeOne(){
 		assertNull(PrimeFactor.prime(1));
-	}
-	
-	@Test
-	public void testPrimeTwo(){
-		ArrayList<Integer> list = new ArrayList<Integer>();
-		list.add(2);
-		assertEquals(PrimeFactor.prime(2), list);
 	}
 }

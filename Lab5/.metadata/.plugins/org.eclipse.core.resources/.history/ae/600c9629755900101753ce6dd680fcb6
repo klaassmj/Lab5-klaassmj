@@ -20,8 +20,6 @@ public class PrimeFactorTest {
 	
 	@Test
 	public void testPrimeTwo(){
-		ArrayList<Integer> list = new ArrayList<Integer>();
-		list.add(2);
-		assertEquals(PrimeFactor.prime(2), list);
+		assertEquals(PrimeFactor.prime(2), new ArrayList<Integer>(2));
 	}
 }
