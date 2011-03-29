@@ -175,9 +175,7 @@ public class PrimeGeneratorTest {
 				521, 
 				523, 
 				541};
-		ArrayList<Integer> list = new ArrayList<Integer>();
-		for (int k = 0; k < 100; k++)
-			list.add(array[k]);
-		assertEquals(PrimeGenerator.generatePrimes(542), list);
+		ArrayList<Integer> list = new ArrayList(Arrays.asList(array));
+		assertEquals(PrimeGenerator.generatePrimes(20), list);
 	}
 }
