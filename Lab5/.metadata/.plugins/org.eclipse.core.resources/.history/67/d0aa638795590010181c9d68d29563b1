@@ -7,21 +7,21 @@ public class PrimeFactor {
 	}
 
 	public static ArrayList<Integer> prime(int i, ArrayList<Integer> list) {
-		if (i > 1) {
-			for (int j = 2; j <= i; j++) {
+		if (i > 1){
+			for (int j = 2; j <= i/2; j++){
 				if (isPrime(j))
-					if (i % j == 0) {
+					if (i % j == 0){
 						int accu = 1;
-						int jtoaccupwr = j;
-						while (true) {
-							if (i % (j * jtoaccupwr) == 0) {
+						int jtoaccu = j;
+						while(true){
+							if (i % (j * jtoaccu) == 0){
 								accu++;
-								jtoaccupwr *= j;
-							} else
-								break;
-						}
+								jtoaccu *= j;
+							}
+							else break;
 						for (int k = 0; k < accu; k++)
 							list.add(j);
+						}
 					}
 			}
 			return list;
@@ -34,11 +34,11 @@ public class PrimeFactor {
 			return false;
 		if (i == 2)
 			return true;
-		for (int j = 2; i > j; j++) {
+		for (int j = 0; j < i; j++) {
 			if (i % j == 0)
 				return false;
 		}
-		return true;
+		return false;
 	}
 
 }
