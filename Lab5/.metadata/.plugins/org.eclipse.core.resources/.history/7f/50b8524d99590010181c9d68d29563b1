@@ -12,10 +12,5 @@ public class PrimeGeneratorTest {
 	public void testPrimeGenerateOne(){
 		assertEquals(PrimeGenerator.generatePrimes(1), new ArrayList<Integer>());
 	}
-	
-	@Test
-	public void testPrimeGenerateTwo(){
-		assertEquals(PrimeGenerator.generatePrimes(2), new ArrayList<Integer>());
-	}
 
 }
