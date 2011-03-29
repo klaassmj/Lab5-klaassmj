@@ -9,9 +9,8 @@ public class PrimeGenerator {
 		else {
 			ArrayList<Integer> temp = new ArrayList<Integer>();
 			for (int j = 2; j < i; j++){
-				if (j == 2 || j == 3){
+				if (j % 2 != 0 || j % 3 != 0)
 					temp.add(j);
-				}
 			}
 			return temp;
 		}
