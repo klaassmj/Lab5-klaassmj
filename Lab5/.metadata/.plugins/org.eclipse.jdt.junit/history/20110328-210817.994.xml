@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="PrimeGeneratorTest" project="Lab5" tests="9" started="9" failures="1" errors="0" ignored="0">
+  <testsuite name="PrimeGeneratorTest" time="0.012">
+    <testcase name="testPrimeGenerateOne" classname="PrimeGeneratorTest" time="0.006"/>
+    <testcase name="testPrimeGenerateTwo" classname="PrimeGeneratorTest" time="0.0"/>
+    <testcase name="testPrimeGenerateThree" classname="PrimeGeneratorTest" time="0.001"/>
+    <testcase name="testPrimeGenerateFour" classname="PrimeGeneratorTest" time="0.0"/>
+    <testcase name="testPrimeGenerateFive" classname="PrimeGeneratorTest" time="0.0"/>
+    <testcase name="testPrimeGenerateSix" classname="PrimeGeneratorTest" time="0.001"/>
+    <testcase name="testPrimeGenerateEight" classname="PrimeGeneratorTest" time="0.0"/>
+    <testcase name="testPrimeGenerateTwenty" classname="PrimeGeneratorTest" time="0.0"/>
+    <testcase name="testPrimeGenerateBigNumber" classname="PrimeGeneratorTest" time="0.004">
+      <failure>java.lang.AssertionError: expected:&lt;[2, 3, 5, 7, 11, 13, 17, 19, 23, 25, 29, 31, 35, 37, 41, 43, 47, 49, 53, 55, 59, 61, 65, 67, 71, 73, 77, 79, 83, 85, 89, 91, 95, 97, 101, 103, 107, 109, 113, 115, 119, 121, 125, 127, 131, 133, 137, 139, 143, 145, 149, 151, 155, 157, 161, 163, 167, 169, 173, 175, 179, 181, 185, 187, 191, 193, 197, 199, 203, 205, 209, 211, 215, 217, 221, 223, 227, 229, 233, 235, 239, 241, 245, 247, 251, 253, 257, 259, 263, 265, 269, 271, 275, 277, 281, 283, 287, 289, 293, 295, 299, 301, 305, 307, 311, 313, 317, 319, 323, 325, 329, 331, 335, 337, 341, 343, 347, 349, 353, 355, 359, 361, 365, 367, 371, 373, 377, 379, 383, 385, 389, 391, 395, 397, 401, 403, 407, 409, 413, 415, 419, 421, 425, 427, 431, 433, 437, 439, 443, 445, 449, 451, 455, 457, 461, 463, 467, 469, 473, 475, 479, 481, 485, 487, 491, 493, 497, 499, 503, 505, 509, 511, 515, 517, 521, 523, 527, 529, 533, 535, 539, 541]&gt; but was:&lt;[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491, 499, 503, 509, 521, 523, 541]&gt;
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.failNotEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:126)
+	at org.junit.Assert.assertEquals(Assert.java:145)
+	at PrimeGeneratorTest.testPrimeGenerateBigNumber(PrimeGeneratorTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:46)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>
