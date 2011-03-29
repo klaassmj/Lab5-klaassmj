@@ -12,7 +12,7 @@ public class PrimeGenerator {
 				if (j == 2 || j == 3){
 					temp.add(j);
 				}
-				if (j % 2 != 0 && j % 3 != 0){
+				if (j % 2 != 0 || j % 3 != 0){
 					temp.add(j);
 				}
 			}
